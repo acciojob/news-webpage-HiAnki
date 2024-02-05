@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+ body{
+    background-color: #f5f5f5;
+  }
+
+  .header{
+    background-color: #011e29;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(9,1fr);
+  }
+  .main-article{
+    text-align: center;
+    grid-area: 1/2/5/4;
+  }
+  .latest-news-section{
+    grid-area: 1/1/4/2;
+  }
+  .pictorial-news-section{
+    grid-area: 1/4/7/5;
+  }
+  .card{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+img {
+    width: 100%; 
+    height: auto; 
+  }
