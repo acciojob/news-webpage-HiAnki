@@ -23,6 +23,7 @@
   }
   .pictorial-news-section{
     grid-area: 1/4/7/5;
+	  text-align: center;
   }
   .card{
     background-color: white;
